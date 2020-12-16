@@ -58,8 +58,11 @@ npm i pg-hstore pg
 5.  Modify config file
 
 - Create ElephantSQL instance
+
   -Make a copy of the dist.env file and name the copy .env
+
   -Copy/paste the credentials into .env
+
   -Run migrations so that Postres can store Model data:
 
 ```sh
@@ -67,8 +70,11 @@ npx sequelize-cli db:migrate
 ```
 
 6. Create data model
+
    -If creating multiple models, run below command for each model
+
    -replace modelName and attributes
+
    -Ensure there are no spaces in attribute listing
 
 ```sh
